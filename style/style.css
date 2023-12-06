@@ -12,7 +12,15 @@
   --black: #040d1f;
   --white: #ffffff;
 }
-
+ul {
+  margin-bottom: 0;
+}
+.header_top p {
+  margin-bottom: 0;
+}
+.film_time {
+  margin-bottom: 0;
+}
 * {
   margin: 0;
   padding: 0;
@@ -701,7 +709,7 @@ body {
 }
 
 .cookie-consent-banner h3,
-p {
+.cookie-consent-banner p {
   color: #040d1f;
 }
 .cookie-consent-banner {
@@ -769,4 +777,11 @@ p {
 
 .cookie-consent-options input {
   margin-right: 5px;
+}
+.form-group {
+  font-family: var(--c700);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
 }
